@@ -65,7 +65,7 @@ public class Main{
         System.out.println("Inorder traversal:");
         tree.inOrder(tree.root);
         System.out.println("\nPreorder traversal:");
-        tree.postOrder(tree.root);
+        tree.preOrder(tree.root);
         System.out.println("\nPostorder traversal:");
         tree.postOrder(tree.root);
     }
